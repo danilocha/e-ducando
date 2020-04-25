@@ -8,19 +8,10 @@ const FeaturesOne = () => {
         alt=""
         className="cta-three__shape-2"
       />
-      <img
-        src="/assets/images/shapes/cta-1-shape-3.png"
-        alt=""
-        className="cta-three__shape-3"
-      />
+
       <div className="container">
         <img
-          src="/assets/images/shapes/cta-1-shape-1.png"
-          alt=""
-          className="cta-three__shape-1"
-        />
-        <img
-          src="/assets/images/mocs/cta-moc-1-1.png"
+          src="/assets/images/resources/clase-online.jpg"
           alt=""
           className="cta-three__moc"
         />

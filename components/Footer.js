@@ -37,7 +37,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <div>
-        <footer className="site-footer">
+        {/* <footer className="site-footer">
           <img
             src="/assets/images/shapes/footer-shape-1.png"
             className="site-footer__shape-1"
@@ -159,7 +159,7 @@ export default class Footer extends React.Component {
               </div>
             </div>
           </div>
-        </footer>
+        </footer> */}
         <div
           onClick={this.scrollTop}
           className="scroll-to-target scroll-to-top"

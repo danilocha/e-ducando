@@ -20,7 +20,7 @@ const FeaturesTwo = () => {
           className="cta-two__shape-3"
         />
         <img
-          src="/assets/images/mocs/cta-moc-2-1.png"
+          src="/assets/images/resources/profesores.png"
           alt=""
           className="cta-two__moc"
         />
@@ -29,19 +29,19 @@ const FeaturesTwo = () => {
             <div className="cta-two__content">
               <div className="block-title text-left">
                 <span className="block-title__bubbles"></span>
-                <p>Capacitacion docento</p>
+                <p>Capacitacion docente</p>
                 <h3>¿Tu equipo esta preparado para la educacion online?</h3>
               </div>
 
-              <p>
-                Contamos con especialistas en E-learning preparados para
-                explicarte como llevar tu educacion al mundo online, manteniendo
-                la efectividad, sabemos que en las casas los estudiantes tienen
-                muchas distracciones y las metodologias de educacion no pueden
-                ser las mismas
+              <p className="parrafos">
+                Contamos con especialistas en E-learning preparados para guiarte
+                a llevar tus clases al mundo online, mejorar la efectividad.
+                Sabemos que en las casas los estudiantes tienen muchas
+                distracciones y las metodologias de educacion no deben ser las
+                mismas
               </p>
               <a href="#" className="thm-btn cta-two__btn">
-                Quiero Aprender!
+                !Quiero Aprender!
               </a>
             </div>
           </div>

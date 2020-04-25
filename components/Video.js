@@ -21,12 +21,12 @@ export default class Video extends Component {
             className="video-one__box wow fadeInUp"
             data-wow-duration="1500ms"
           >
-            <img src="/assets/images/resources/video-1-1.jpg" alt="" />
+            <img src="/assets/images/resources/equipo.jpg" alt="" />
             <div className="video-one__content">
               <ModalVideo
                 channel="youtube"
                 isOpen={this.state.isOpen}
-                videoId="aitb---aDYM"
+                videoId="dwFrZ0Xw51M"
                 onClose={() => this.setState({ isOpen: false })}
               />
               <div onClick={this.openModal} className="video-popup">

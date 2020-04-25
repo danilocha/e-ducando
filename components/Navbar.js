@@ -58,22 +58,23 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <header className="main-nav__header-one ">
+        <header className="main-nav__header-one">
           <nav
             className={
               this.state.sticky
-                ? "header-navigation stricky stricked-menu stricky-fixed"
+                ? "header-navigation stricky stricked-menu stricky-fixed azul "
                 : "header-navigation stricky"
             }
           >
             <div className="container">
               <div className="main-nav__logo-box">
-                <a href="/" className="main-nav__logo">
+                <a href="/" className="main-nav__logo nav-logo">
                   <img
                     src="/assets/images/logo-1-1.png"
                     width="105"
                     alt="Awesome Image"
                   />
+                  <span>ducando</span>
                 </a>
                 <a href="#" className="side-menu__toggler">
                   <i className="fa fa-bars"></i>
@@ -85,16 +86,16 @@ export default class Navbar extends React.Component {
                     <a href="/">inicio</a>
                   </li>
                   <li className="scrollToLink">
-                    <a href="#features">Equipo</a>
+                    <a href="#features">¿que hacemos?</a>
                   </li>
                   <li className="scrollToLink">
-                    <a href="#pricing">Servicios</a>
+                    <a href="#app-shots">La plataforma</a>
                   </li>
 
                   <li className="scrollToLink">
-                    <a href="#testimonials">Testimonios</a>
+                    <a href="#testimonials">Nuestro equipo</a>
                   </li>
-                  <li className="dropdown scrollToLink">
+                  {/* <li className="dropdown scrollToLink">
                     <a href="#blog">Blog</a>
                     <ul>
                       <li>
@@ -108,7 +109,7 @@ export default class Navbar extends React.Component {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className="main-nav__right">

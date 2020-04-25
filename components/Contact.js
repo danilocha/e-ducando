@@ -23,32 +23,17 @@ const Contact = () => {
           <div className="col-lg-6">
             <div className="contact-one__content">
               <div className="contact-one__images">
-                <img
-                  src="/assets/images/resources/contact-1.jpg"
-                  className="wow fadeInUp"
-                  data-wow-duration="1500ms"
-                  alt=""
-                />
-                <img
-                  src="/assets/images/resources/contact-2.jpg"
-                  className="wow fadeInUp"
-                  data-wow-duration="1500ms"
-                  alt=""
-                />
+                <div className="footer">
+                  <img
+                    src="/assets/images/logo-1-1.png"
+                    width="105"
+                    alt="Awesome Image"
+                  />
+                  <span>ducando</span>
+                </div>
               </div>
               <div className="contact-one__infos">
-                <div className="contact-one__infos-single">
-                  <div className="contact-one__infos-icon">
-                    <i className="zimed-icon-placeholder"></i>
-                  </div>
-                  <div className="contact-one__infos-content">
-                    <h3>Addresss</h3>
-                    <p>
-                      20 Broklyn Street, New York. United States of <br />{" "}
-                      America
-                    </p>
-                  </div>
-                </div>
+                <div className="contact-one__infos-single"></div>
                 <div className="contact-one__infos-single">
                   <div className="contact-one__infos-icon">
                     <i className="zimed-icon-message"></i>
@@ -56,18 +41,9 @@ const Contact = () => {
                   <div className="contact-one__infos-content">
                     <h3>Email</h3>
                     <p>
-                      <a href="mailto:needhelp@zimed.com">needhelp@zimed.com</a>
-                    </p>
-                  </div>
-                </div>
-                <div className="contact-one__infos-single">
-                  <div className="contact-one__infos-icon">
-                    <i className="zimed-icon-phone-call"></i>
-                  </div>
-                  <div className="contact-one__infos-content">
-                    <h3>Phone</h3>
-                    <p>
-                      <a href="tel:666-888-0000">666 888 0000</a>
+                      <a href="mailto:educandolat@gmail.com">
+                        educandolat@gmail.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -87,21 +63,21 @@ const Contact = () => {
               >
                 <div className="row">
                   <div className="col-md-6">
-                    <input type="text" name="name" placeholder="Name" />
+                    <input type="text" name="name" placeholder="Nombre" />
                   </div>
                   <div className="col-md-6">
                     <input type="text" name="email" placeholder="Email" />
                   </div>
                   <div className="col-md-12">
-                    <input type="text" name="subject" placeholder="Subject" />
+                    <input type="text" name="subject" placeholder="Asunto" />
                   </div>
                   <div className="col-md-12">
-                    <textarea name="message" placeholder="Message"></textarea>
+                    <textarea name="message" placeholder="Mensaje"></textarea>
                     <button
                       type="submit"
                       className="thm-btn contact-one__form-btn"
                     >
-                      Send Message
+                      Enviar
                     </button>
                   </div>
                 </div>

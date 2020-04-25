@@ -17,22 +17,22 @@ import CallToAction from "../components/CallToAction";
 import Footer from "../components/Footer";
 
 const Home = () => (
-  <Layout pageTitle="E-duquemos | transformando la educacion">
+  <Layout pageTitle="E-ducando | transformando la educacion">
     <Navbar />
     <Banner />
     <Services />
     <FeaturesOne />
     <FeaturesTwo />
-    <Video />
-    <Counter />
-    <Pricing />
+    {/* <Video /> */}
+    {/* <Counter /> */}
+    {/* <Pricing /> */}
     <Screenshots />
     <Testimonial />
-    <Brands />
-    <Faq />
-    <BlogHome />
+    {/* <Brands />
+    <Faq /> */}
+    {/* <BlogHome /> */}
     <Contact />
-    <CallToAction />
+    {/* <CallToAction /> */}
     <Footer />
   </Layout>
 );
