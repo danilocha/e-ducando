@@ -5,19 +5,19 @@ const PageHeader = (props) => {
     return (
         <div>
             <section className="page-header"
-                     style={{backgroundImage: `url(/assets/images/background/inner-banner-bg.png)`}}>
+                style={{ backgroundImage: `url(/assets/images/background/banner-bg-1-1.png)` }}>
                 <div className="container">
                     <ul className="list-unstyled thm-breadcrumb">
                         <li>
-                            <a href="/">Home /</a>
+                            <a href="/">Articulos /</a>
                         </li>
-                        <li className="active"><a href="#">{ props.title }</a></li>
+                        <li className="active"><a href="#">{props.title}</a></li>
                     </ul>
-                    <h2 className="inner-banner__title">{ props.title }</h2>
+                    <h2 className="inner-banner__title">{props.title}</h2>
                 </div>
             </section>
 
-        <style jsx>{`
+            <style jsx>{`
               .thm-breadcrumb {
                 margin: 0;
                 display: -webkit-box;
